@@ -1,5 +1,6 @@
-var button = document.querySelector(".btn-start");
-button.onclick = function() {
+document.querySelector(".btn-start").addEventListener("click", shuffleDice);
+
+function shuffleDice() {
 
 /*suffle the dice when button pressed */
   
